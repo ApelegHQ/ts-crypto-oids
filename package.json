@@ -1,6 +1,6 @@
 {
-	"name": "@exact-realty/crypto-oids",
-	"version": "20240221.0.0",
+	"name": "@apeleghq/crypto-oids",
+	"version": "20240911.0.0",
 	"description": "Non-comprehensive export of OIDs used in various crypto standards",
 	"type": "module",
 	"main": "./dist/index.cjs",
@@ -19,18 +19,18 @@
 		}
 	},
 	"devDependencies": {
-		"@types/node": "^20.11.19",
-		"@typescript-eslint/eslint-plugin": "^7.0.2",
-		"@typescript-eslint/parser": "7.0.2",
-		"eslint": "^8.56.0",
+		"@types/node": "^22.5.4",
+		"@typescript-eslint/eslint-plugin": "^8.5.0",
+		"@typescript-eslint/parser": "8.5.0",
+		"eslint": "^8.57.0",
 		"eslint-config-prettier": "^9.1.0",
-		"eslint-plugin-prettier": "^5.1.3",
-		"prettier": "^3.2.5",
-		"typescript": "^5.3.3"
+		"eslint-plugin-prettier": "^5.2.1",
+		"prettier": "^3.3.3",
+		"typescript": "^5.6.2"
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/Exact-Realty/ts-crypto-oids.git"
+		"url": "git+https://github.com/ApelegHQ/ts-crypto-oids.git"
 	},
 	"files": [
 		"dist/**/*"
@@ -45,7 +45,7 @@
 		"version": "npm run lint && git add -A src",
 		"postversion": "git push && git push --tags"
 	},
-	"author": "Exact Realty Limited",
+	"author": "Apeleg Limited",
 	"license": "CC0-1.0",
 	"keywords": ["oid", "asn1", "cms", "x509", "X9.62"]
 }

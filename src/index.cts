@@ -1,5 +1,5 @@
 /* eslint-disable @typescript-eslint/naming-convention */
-// TOid type from @exact-realty/asn1-der
+// TOid type from @apeleghq/asn1-der
 type TOidStart = `0` | `1` | `2`;
 type TOidNextPrimitive0 = `${bigint}`;
 type TOidNextPrimitive1 =

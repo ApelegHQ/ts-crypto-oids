@@ -27,13 +27,13 @@
 To install the package, you can use npm or yarn:
 
 ```sh
-npm install @exact-realty/crypto-oids
+npm install @apeleghq/crypto-oids
 ```
 
 or
 
 ```sh
-yarn add @exact-realty/crypto-oids
+yarn add @apeleghq/crypto-oids
 ```
 
 ### 📚 Usage
@@ -41,7 +41,7 @@ yarn add @exact-realty/crypto-oids
 ```javascript
 import {
   OID_ANSIX962_SIGNATURES_ECDSAWITHRECOMMENDED,
-} from '@exact-realty/crypto-oids';
+} from '@apeleghq/crypto-oids';
 
 ```
 
