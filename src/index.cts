@@ -274,6 +274,266 @@ export const OID_PKCS9_CHALLENGEPASSWORD: TOid = '1.2.840.113549.1.9.7';
  */
 export const OID_PKCS9_UNSTRUCTUREDADDRESS: TOid = '1.2.840.113549.1.9.8';
 /**
+ * @name id-ct-anyContentType
+ * @description Any content type
+ * @const
+ */
+export const OID_PKCS9_SMIME_CT_ANY: TOid =
+	'1.2.840.113549.1.9.16.1.0';
+/**
+ * @name id-ct-receipt
+ * @description Receipt
+ * @const
+ */
+export const OID_PKCS9_SMIME_CT_RECEIPT: TOid =
+	'1.2.840.113549.1.9.16.1.1';
+/**
+ * @name ct-authData
+ * @description Auth data
+ * @const
+ */
+export const OID_PKCS9_SMIME_CT_AUTH_DATA: TOid =
+	'1.2.840.113549.1.9.16.1.2';
+/**
+ * @name id-ct-publishCert
+ * @description Publish cert
+ * @const
+ */
+export const OID_PKCS9_SMIME_CT_PUBLISHCERT: TOid =
+	'1.2.840.113549.1.9.16.1.3';
+/**
+ * @name ct-countersignature
+ * @description Counter signature of a signature
+ * @const
+ */
+export const OID_PKCS9_SMIME_CT_COUNTERSIGNATURE: TOid =
+	'1.2.840.113549.1.9.16.1.4';
+/**
+ * @name id-ct-TDTInfo
+ * @description tdtInfo
+ * @deprecated
+ * @const
+ */
+export const OID_PKCS9_SMIME_CT_TDTINFO: TOid =
+	'1.2.840.113549.1.9.16.1.5';
+/**
+ * @name contentInfo
+ * @description Content information type
+ * @const
+ */
+export const OID_PKCS9_SMIME_CT_CONTENT_INFO: TOid =
+	'1.2.840.113549.1.9.16.1.6';
+/**
+ * @name id-ct-DVCSRequestData
+ * @description DVCS Request Data
+ * @const
+ */
+export const OID_PKCS9_SMIME_CT_DVCS_REQUEST_DATA: TOid =
+	'1.2.840.113549.1.9.16.1.7';
+/**
+ * @name id-ct-DVCSResponseData
+ * @description DVCS Response Data
+ * @const
+ */
+export const OID_PKCS9_SMIME_CT_DVCS_RESPONSE_DATA: TOid =
+	'1.2.840.113549.1.9.16.1.8';
+/**
+ * @name compressedData
+ * @description S/MIME compressed-data content type
+ * @const
+ */
+export const OID_PKCS9_SMIME_CT_COMPRESSED_DATA: TOid =
+	'1.2.840.113549.1.9.16.1.9';
+/**
+ * @name id-ct-scvp-certValRequest
+ * @description certValRequest
+ * @const
+ */
+export const OID_PKCS9_SMIME_CT_SCVP_CERTVAL_REQUEST: TOid =
+	'1.2.840.113549.1.9.16.1.10';
+/**
+ * @name id-ct-scvp-certValResponse
+ * @description certValResponse
+ * @const
+ */
+export const OID_PKCS9_SMIME_CT_SCVP_CERTVAL_RESPONSE: TOid =
+	'1.2.840.113549.1.9.16.1.11';
+/**
+ * @name id-ct-scvp-valPolRequest
+ * @description valPolRequest
+ * @const
+ */
+export const OID_PKCS9_SMIME_CT_SCVP_VALPOL_REQUEST: TOid =
+	'1.2.840.113549.1.9.16.1.12';
+/**
+ * @name id-ct-scvp-valPolResponse
+ * @description valPolResponse
+ * @const
+ */
+export const OID_PKCS9_SMIME_CT_SCVP_VALPOL_RESPONSE: TOid =
+	'1.2.840.113549.1.9.16.1.13';
+/**
+ * @name id-ct-attrCertEncAttrs
+ * @description attrCertEncAttrs
+ * @const
+ */
+export const OID_PKCS9_SMIME_CT_ATTR_CERT_ENC_ATTRS: TOid =
+	'1.2.840.113549.1.9.16.1.14';
+/**
+ * @name id-ct-TSReq
+ * @description TSReq
+ * @const
+ */
+export const OID_PKCS9_SMIME_CT_TSREQ: TOid =
+	'1.2.840.113549.1.9.16.1.15';
+/**
+ * @name id-ct-firmwarePackage
+ * @description firmwarePackage
+ * @const
+ */
+export const OID_PKCS9_SMIME_CT_FIRMWARE_PACKAGE: TOid =
+	'1.2.840.113549.1.9.16.1.16';
+/**
+ * @name id-ct-firmwareLoadReceipt
+ * @description Firmware load receipt
+ * @const
+ */
+export const OID_PKCS9_SMIME_CT_FIRMWARE_LOAD_RECEIPT: TOid =
+	'1.2.840.113549.1.9.16.1.17';
+/**
+ * @name id-ct-firmwareLoadError
+ * @description Firmware load error
+ * @const
+ */
+export const OID_PKCS9_SMIME_CT_FIRMWARE_LOAD_ERROR: TOid =
+	'1.2.840.113549.1.9.16.1.18';
+/**
+ * @name id-ct-contentCollection
+ * @description id-ct-contentCollection
+ * @const
+ */
+export const OID_PKCS9_SMIME_CT_CONTENT_COLLECTION: TOid =
+	'1.2.840.113549.1.9.16.1.19';
+/**
+ * @name id-ct-contentWithAttrs
+ * @description contentWithAttrs
+ * @const
+ */
+export const OID_PKCS9_SMIME_CT_CONTENT_WITH_ATTRS: TOid =
+	'1.2.840.113549.1.9.16.1.20';
+/**
+ * @name id-ct-encKeyWithID
+ * @description encKeyWithID
+ * @const
+ */
+export const OID_PKCS9_SMIME_CT_ENCKEY_WITH_ID: TOid =
+	'1.2.840.113549.1.9.16.1.21';
+/**
+ * @name id-ct-encPEPSI
+ * @description encPEPSI
+ * @const
+ */
+export const OID_PKCS9_SMIME_CT_ENC_PEPSI: TOid =
+	'1.2.840.113549.1.9.16.1.22';
+/**
+ * @name id-ct-authEnvelopedData
+ * @description authEnvelopedData
+ * @const
+ */
+export const OID_PKCS9_SMIME_CT_AUTH_ENVELOPED_DATA: TOid =
+	'1.2.840.113549.1.9.16.1.23';
+/**
+ * @name id-ct-routeOriginAuthz
+ * @description routeOriginAuthz
+ * @const
+ */
+export const OID_PKCS9_SMIME_CT_ROUTE_ORIGIN_AUTHZ: TOid =
+	'1.2.840.113549.1.9.16.1.24';
+/**
+ * @name id-ct-KP-sKeyPackage
+ * @description sKeyPackage
+ * @const
+ */
+export const OID_PKCS9_SMIME_CT_S_KEY_PACKAGE: TOid =
+	'1.2.840.113549.1.9.16.1.25';
+/**
+ * @name id-ct-rpkiManifest
+ * @description rpkiManifest
+ * @const
+ */
+export const OID_PKCS9_SMIME_CT_RPKI_MANIFEST: TOid =
+	'1.2.840.113549.1.9.16.1.26';
+/**
+ * @name asciiTextWithCRLF
+ * @description Plain text with Carriage Return Line Feed (CRLF) line endings
+ * @const
+ */
+export const OID_PKCS9_SMIME_CT_ASCII_TEXT_WITH_CRLF: TOid =
+	'1.2.840.113549.1.9.16.1.27';
+/**
+ * @name xml
+ * @description eXtensible Markup Language (XML) content with bare Line Feed (LF) line endings
+ * @const
+ */
+export const OID_PKCS9_SMIME_CT_XML: TOid =
+	'1.2.840.113549.1.9.16.1.28';
+/**
+ * @name pdf
+ * @description Portable Document Format (PDF) content-type (no canonicalization is implied)
+ * @const
+ */
+export const OID_PKCS9_SMIME_CT_PDF: TOid =
+	'1.2.840.113549.1.9.16.1.29';
+/**
+ * @name postscript
+ * @description PostScript content-type (no canonicalization is implied)
+ * @const
+ */
+export const OID_PKCS9_SMIME_CT_POSTSCRIPT: TOid =
+	'1.2.840.113549.1.9.16.1.30';
+/**
+ * @name id-ct-timestampedData
+ * @description TimeStampedData content-type
+ * @const
+ */
+export const OID_PKCS9_SMIME_CT_TIMESTAMPED_DATA: TOid =
+	'1.2.840.113549.1.9.16.1.31';
+/**
+ * @name id-ct-ASAdjacencyAttest
+ * @description ASAdjacencyAttest
+ * @const
+ */
+export const OID_PKCS9_SMIME_CT_AS_ADJACENCY_ATTEST: TOid =
+	'1.2.840.113549.1.9.16.1.32';
+/**
+ * @name id-ct-rpkiTrustAnchor
+ * @description rpkiTrustAnchor
+ * @const
+ */
+export const OID_PKCS9_SMIME_CT_RPKI_TRUST_ANCHOR: TOid =
+	'1.2.840.113549.1.9.16.1.33';
+/**
+ * @name id-ct-trustAnchorList
+ * @description trustAnchorList
+ * @const
+ */
+export const OID_PKCS9_SMIME_CT_TRUST_ANCHOR_LIST: TOid =
+	'1.2.840.113549.1.9.16.1.34';
+/**
+ * @name id-ct-rpkiGhostbusters
+ * @description rpkiGhostbusters
+ * @const
+ */
+export const OID_PKCS9_SMIME_CT_RPKI_GHOSTBUSTERS: TOid =
+	'1.2.840.113549.1.9.16.1.35';
+/**
+ * @name id-ct-resourceTaggedAttest
+ * @description resourceTaggedAttest
+ * @const
+ */
+export const OID_PKCS9_SMIME_CT_RESOURCE_TAGGED_ATTEST: TOid =
+	'1.2.840.113549.1.9.16.1.36';
+/**
  * @name id-aa-signatureTimeStampToken
  * @description signatureTimeStampToken
  * @const

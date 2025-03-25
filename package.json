@@ -1,6 +1,6 @@
 {
 	"name": "@apeleghq/crypto-oids",
-	"version": "20240911.0.1",
+	"version": "20250325.0.0",
 	"description": "Non-comprehensive export of OIDs used in various crypto standards",
 	"type": "module",
 	"main": "dist/index.cjs",
