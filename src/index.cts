@@ -278,29 +278,25 @@ export const OID_PKCS9_UNSTRUCTUREDADDRESS: TOid = '1.2.840.113549.1.9.8';
  * @description Any content type
  * @const
  */
-export const OID_PKCS9_SMIME_CT_ANY: TOid =
-	'1.2.840.113549.1.9.16.1.0';
+export const OID_PKCS9_SMIME_CT_ANY: TOid = '1.2.840.113549.1.9.16.1.0';
 /**
  * @name id-ct-receipt
  * @description Receipt
  * @const
  */
-export const OID_PKCS9_SMIME_CT_RECEIPT: TOid =
-	'1.2.840.113549.1.9.16.1.1';
+export const OID_PKCS9_SMIME_CT_RECEIPT: TOid = '1.2.840.113549.1.9.16.1.1';
 /**
  * @name ct-authData
  * @description Auth data
  * @const
  */
-export const OID_PKCS9_SMIME_CT_AUTH_DATA: TOid =
-	'1.2.840.113549.1.9.16.1.2';
+export const OID_PKCS9_SMIME_CT_AUTH_DATA: TOid = '1.2.840.113549.1.9.16.1.2';
 /**
  * @name id-ct-publishCert
  * @description Publish cert
  * @const
  */
-export const OID_PKCS9_SMIME_CT_PUBLISHCERT: TOid =
-	'1.2.840.113549.1.9.16.1.3';
+export const OID_PKCS9_SMIME_CT_PUBLISHCERT: TOid = '1.2.840.113549.1.9.16.1.3';
 /**
  * @name ct-countersignature
  * @description Counter signature of a signature
@@ -314,8 +310,7 @@ export const OID_PKCS9_SMIME_CT_COUNTERSIGNATURE: TOid =
  * @deprecated
  * @const
  */
-export const OID_PKCS9_SMIME_CT_TDTINFO: TOid =
-	'1.2.840.113549.1.9.16.1.5';
+export const OID_PKCS9_SMIME_CT_TDTINFO: TOid = '1.2.840.113549.1.9.16.1.5';
 /**
  * @name contentInfo
  * @description Content information type
@@ -384,8 +379,7 @@ export const OID_PKCS9_SMIME_CT_ATTR_CERT_ENC_ATTRS: TOid =
  * @description TSReq
  * @const
  */
-export const OID_PKCS9_SMIME_CT_TSREQ: TOid =
-	'1.2.840.113549.1.9.16.1.15';
+export const OID_PKCS9_SMIME_CT_TSREQ: TOid = '1.2.840.113549.1.9.16.1.15';
 /**
  * @name id-ct-firmwarePackage
  * @description firmwarePackage
@@ -433,8 +427,7 @@ export const OID_PKCS9_SMIME_CT_ENCKEY_WITH_ID: TOid =
  * @description encPEPSI
  * @const
  */
-export const OID_PKCS9_SMIME_CT_ENC_PEPSI: TOid =
-	'1.2.840.113549.1.9.16.1.22';
+export const OID_PKCS9_SMIME_CT_ENC_PEPSI: TOid = '1.2.840.113549.1.9.16.1.22';
 /**
  * @name id-ct-authEnvelopedData
  * @description authEnvelopedData
@@ -475,22 +468,19 @@ export const OID_PKCS9_SMIME_CT_ASCII_TEXT_WITH_CRLF: TOid =
  * @description eXtensible Markup Language (XML) content with bare Line Feed (LF) line endings
  * @const
  */
-export const OID_PKCS9_SMIME_CT_XML: TOid =
-	'1.2.840.113549.1.9.16.1.28';
+export const OID_PKCS9_SMIME_CT_XML: TOid = '1.2.840.113549.1.9.16.1.28';
 /**
  * @name pdf
  * @description Portable Document Format (PDF) content-type (no canonicalization is implied)
  * @const
  */
-export const OID_PKCS9_SMIME_CT_PDF: TOid =
-	'1.2.840.113549.1.9.16.1.29';
+export const OID_PKCS9_SMIME_CT_PDF: TOid = '1.2.840.113549.1.9.16.1.29';
 /**
  * @name postscript
  * @description PostScript content-type (no canonicalization is implied)
  * @const
  */
-export const OID_PKCS9_SMIME_CT_POSTSCRIPT: TOid =
-	'1.2.840.113549.1.9.16.1.30';
+export const OID_PKCS9_SMIME_CT_POSTSCRIPT: TOid = '1.2.840.113549.1.9.16.1.30';
 /**
  * @name id-ct-timestampedData
  * @description TimeStampedData content-type
